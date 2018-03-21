@@ -96,25 +96,18 @@ li > a:hover {
     color: #526cbb;
 }
 
-#About {
-    margin: 0 auto;
-    height: 81%;
-    width: 100%;
-    display: inline-block;
-    background-color: #f6f6f6
-}
-
-.container {
+#About .About{
     margin: 0 auto;
     height: 81%;
     width: 100%;
     display: inline-block;
     background-color: #f6f6f6;
+    padding-bottom: 5%;
 }
 
-.container > h2 {
-    margin-top: 8%;
-    margin-bottom: 8%;
+.About > h2 {
+    margin: 0 auto;
+    padding-top: 5%;
     text-transform: uppercase;
     text-align: center;
     color: #444;
@@ -123,19 +116,29 @@ li > a:hover {
     font-size: 34px;
 }
 
-.container > p {
-    font-family: 'Opsen Sans', sans-serif;
+.About > #p1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    margin-left: 51%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    margin-top: 8%;
+    line-height: 20px;
+}
+
+.About > #p2 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: rgb(102, 102, 102);
     margin-left: 51%;
     margin-right: 15%;
     line-height: 20px;
-    padding-bottom: 1%;
 }
 
-.container > button {
-    height: 10%;
-    width: 10%;
+.About > button {
+    height: 47px;
+    width: 150px;
     color: #526cbb;
     background-color: transparent;
     border: 2px solid #526cbb;
@@ -148,48 +151,43 @@ li > a:hover {
     outline: 0;
 }
 
-.container > button:hover {
+.About > button:hover {
     color: white;
     background-color: #526cbb;
 }
 
-.container > img {
+.About > img {
     height: auto;
     float: top;
-    margin-right: 50%;
-    margin-left: 22%;
-    margin-top: -25%;
+    padding-left: 25%;
+    margin-top: -15%;
 }
 
-.container > hr {
+.About > hr {
     height: 4px;
     width: 70px;
     background: #526cbb;
-    margin-top: -24%;
+    margin-top: 1%;
     border-top: 1px solid #eee;
     border: 0;
 }
 
-#Skills {
-    margin: 0 auto;
-    height: 70%;
-    background: linear-gradient(to right,
-    rgba(107,77,168,1) 0%,
-    rgba(73,119,194,1) 100%);
-}
-.Skills {
+
+#Skills .Skills {
     margin: 0 auto;
     height: 70%;
     width: 100%;
     display: inline-block;
+    padding-bottom: 20%;
     background: linear-gradient(to right,
     rgba(107,77,168,1) 0%,
     rgba(73,119,194,1) 100%);
 }
 
 .Skills > h2 {
+    margin: 0 auto;
     height: 70%;
-    margin-top: 8%;
+    padding-top: 5%;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -202,29 +200,22 @@ li > a:hover {
     height: 4px;
     width: 70px;
     background: #8c91cc;
-    margin-top: -15%;
+    margin-top: 1%;
     border-top: 1px solid #eee;
     border: 0;
 }
 
-#Portfolio {
+#Portfolio .Portfolio {
     margin: 0 auto;
-    height: 118%;
-    background-color: #F6F6F6;
-}
-
-.Portfolio {
-    margin: 0 auto;
-    height: 118%;
+    height: 100%;
     width: 100%;
-    display: inline-block;
+    display: block;
     background-color: #F6F6F6;
-
+    padding-bottom: 50%;
 }
 
 .Portfolio > h2 {
-    height: 70%;
-    margin-top: 8%;
+    margin: 0 auto;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -232,19 +223,16 @@ li > a:hover {
     font-weight: 400;
     color: #444;
     line-height: 20px;
+    padding-top: 5%;
 }
 
 .Portfolio > hr {
     height: 4px;
     width: 70px;
     background: #5a61b4;
-    margin-top: -47%;
-    margin-bottom: 4%;
+    margin-top: 1%;
     border-top: 1px solid #eee;
     border: 0;
-}
-#myDIV {
-    margin-left: 29%;
 }
 
 .btn {
@@ -266,16 +254,9 @@ li > a:hover {
     color: #fff;
 }
 
-#Stats {
+#Stats .Stats {
     margin: 0 auto;
-    height: 70%;
-    width: 100%;
-    background-color: #506fbd;
-}
-
-.Stats {
-    margin: 0 auto;
-    margin-top: 10%;
+    padding-bottom: 20%;
     height: 70%;
     width: 100%;
     display: inline-block;
@@ -285,6 +266,7 @@ li > a:hover {
 }
 
 .Stats > h2 {
+    padding-top: 5%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 34px;
@@ -302,31 +284,23 @@ li > a:hover {
     border: 0;
 }
 
-#Testimonials {
-    margin: 0 auto;
-    margin-top: -1%;
-    height: 80%;
-    width: 100%;
-    display: inline-block;
-    background-color: #F6F6F6;
-}
-
-.Testimonials {
+#Testimonials .Testimonials {
     margin: 0 auto;
     height: 80%;
     width: 100%;
+    padding-bottom: 30%;
     display: inline-block;
     background-color: #F6F6F6;
 }
 
 .Testimonials > h2 {
+    padding-top: 5%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 34px;
     font-weight: 400;
     text-transform: uppercase;
     color: #444;
-    margin-top: 8%;
 }
 
 .Testimonials > hr {
@@ -338,20 +312,12 @@ li > a:hover {
     border: 0;
 }
 
-#Contact {
-    margin: 0 auto;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to right,
-    rgba(107,77,168,0.85) 0%,
-    rgba(73,119,194,0.85) 100%);
-}
-
-.Contact {
+#Contact .Contact {
     margin: 0 auto;
     height: 100%;
     width: 100%;
     display: inline-block;
+    padding-bottom: 5%;
     background: linear-gradient(to right,
     rgba(107,77,168,0.85) 0%,
     rgba(73,119,194,0.85) 100%);
@@ -364,7 +330,7 @@ li > a:hover {
     font-weight: 400;
     text-transform: uppercase;
     color: #f6f6f6;
-    margin-top: 8%;
+    padding-top: 5%;
 }
 
 .Contact > hr {
