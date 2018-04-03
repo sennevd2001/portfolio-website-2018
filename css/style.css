@@ -158,9 +158,10 @@ li > a:hover {
 
 .About > img {
     height: auto;
+    max-width: 30%;
     float: top;
-    padding-left: 25%;
-    margin-top: -15%;
+    padding-left: 22%;
+    margin-top: -17%;
 }
 
 .About > hr {
@@ -172,13 +173,12 @@ li > a:hover {
     border: 0;
 }
 
-
 #Skills .Skills {
     margin: 0 auto;
     height: 70%;
     width: 100%;
     display: inline-block;
-    padding-bottom: 20%;
+    padding-bottom: 30%;
     background: linear-gradient(to right,
     rgba(107,77,168,1) 0%,
     rgba(73,119,194,1) 100%);
@@ -241,7 +241,7 @@ li > a:hover {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weightS: 400;
     padding: 10px 20px;
     outline: none;
     background-color: transparent;
@@ -256,7 +256,7 @@ li > a:hover {
 
 #Stats .Stats {
     margin: 0 auto;
-    padding-bottom: 20%;
+    padding-bottom: 7%;
     height: 70%;
     width: 100%;
     display: inline-block;
@@ -282,13 +282,106 @@ li > a:hover {
     margin-top: -1%;
     border-top: 1px solid #eee;
     border: 0;
+    margin-bottom: 5%;
+}
+
+.Numbers{
+    float: left;
+    padding-left: 17%;
+}
+
+.Numbers > p {
+    font-size: 52px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255,255,255,0.8);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.Numbers > h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.Numbers2 {
+    float: left;
+    padding-left: 10%;
+}
+
+.Numbers2 > p {
+    font-size: 52px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255,255,255,0.8);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.Numbers2 > h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.Numbers3 {
+    float: left;
+    padding-left: 10%;
+}
+
+.Numbers3 > p {
+    font-size: 52px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255,255,255,0.8);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.Numbers3 > h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.Numbers4 {
+    float: left;
+    padding-left: 10%;
+}
+
+.Numbers4 > p {
+    font-size: 52px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255,255,255,0.8);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.Numbers4 > h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 #Testimonials .Testimonials {
     margin: 0 auto;
     height: 80%;
     width: 100%;
-    padding-bottom: 30%;
+    padding-bottom: 10%;
     display: inline-block;
     background-color: #F6F6F6;
 }
@@ -312,12 +405,119 @@ li > a:hover {
     border: 0;
 }
 
+.Feedback {
+    width: 20%;
+    float: left;
+    margin-left: 18%;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    background-color: #fff;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.Feedback > p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.Feedback2 {
+    width: 20%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    background-color: #fff;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.Feedback2 > p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.Feedback3 {
+    width: 20%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    background-color: #fff;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.Feedback3 > p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.fa {
+    display: inline-block;
+}
+.fa-quote-left {
+    margin-top: 10%;
+    color: #eee;
+}
+
+.Name {
+     display: inline-block;
+     border-top: 1px solid #eee;
+     padding-top: 10px;
+     margin-top: 10px;
+     font-family: 'Open Sans', sans-serif;
+ }
+
+.Name > p {
+    margin-bottom: -10%;
+}
+
+.Name2 {
+    display: inline-block;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Name2 > p {
+    margin-bottom: -10%;
+}
+
+.Name3 {
+    display: inline-block;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Name3 > p {
+    margin-bottom: -10%;
+}
+
 #Contact .Contact {
     margin: 0 auto;
     height: 100%;
     width: 100%;
     display: inline-block;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     background: linear-gradient(to right,
     rgba(107,77,168,0.85) 0%,
     rgba(73,119,194,0.85) 100%);
@@ -388,6 +588,60 @@ li > a:hover {
 .Contact > form > input[type=submit]:hover {
     background-color: black;
     border: rgba(255,255,255,0.5);
+}
+
+.SocialButtons > ul li {
+    width: 5%;
+    display: inline-block;
+    padding-top: 5%;
+}
+
+.fa-facebook-f {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-dribbble {
+    color: white;
+}
+
+.fa-github {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-linkedin-in {
+    color: white;
+}
+
+.fa-facebook-f:hover {
+    color: #222222;
+}
+
+.fa-twitter:hover {
+    color: #1d2729;
+}
+
+.fa-dribbble:hover {
+    color: #1d2729;
+}
+
+.fa-github:hover {
+    color: #1d2729;
+}
+
+.fa-instagram:hover {
+    color: #1d2729;
+}
+
+.fa-linkedin-in:hover {
+    color: #1d2729;
 }
 
 .footer {
